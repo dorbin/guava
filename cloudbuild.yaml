@@ -1,0 +1,5 @@
+steps:
+  # list directory contents
+  - name: 'gcr.io/cloud-builders/gcloud'
+    entrypoint: 'bash'
+    args: [ '-c', 'ls -la']
